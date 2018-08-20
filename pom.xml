@@ -20,9 +20,6 @@
     <id>hare</id>
     <url>http://localhost:8081/nexus/content/repositories/hare</url>
   </repository>
-</distributionManagement>
-
-<distributionManagement>
   <snapshotRepository>
     <id>ram</id>
     <url>http://localhost:8081/nexus/content/repositories/ram</url>
