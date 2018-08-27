@@ -15,14 +15,16 @@
     </dependency>
   </dependencies>
   <distributionManagement>
-
-		<repository>
-			<id>hare</id>
-			<url>http://localhost:8081/nexus/content/repositories/hare/</url>
-		</repository>
-		<snapshotRepository>
-			<id>ram</id>
-			<url>http://localhost:8081/nexus/content/repositories/ram/</url>
-		</snapshotRepository>		
+  
+       <repository>
+        <id>hare</id>
+        <name>hare</name>
+        <url>http://localhost:8081/nexus/content/repositories/hare/</url>
+    </repository>
+        <snapshotRepository>
+           <id>ram</id>
+           <name>ram</name>
+           <url>http://localhost:8081/nexus/content/repositories/ram/</url>
+       </snapshotRepository>		
   </distributionManagement>
 </project>
